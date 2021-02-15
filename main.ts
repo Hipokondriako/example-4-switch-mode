@@ -10,7 +10,7 @@ input.onButtonPressed(Button.B, function () {
 let Count = 0
 let Mode = 0
 basic.forever(function () {
-    // "Mode" indicates how he LED is ging to behave.   It´s the remainder of "count"/4, as an absolute number so it´s alwats positive.
+    // "Mode" indicates how the LED is going to behave.  It´s the remainder of "count"/4, as an absolute number so it´s always positive.
     // Count 0, Mode 0
     // Count 1, Mode 1
     // ...
